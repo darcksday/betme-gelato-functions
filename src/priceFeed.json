@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "logo_id": 1,
+      "symbol": "BTC",
+      "name": "bitcoin"
+    },
+    {
+      "logo_id": 1027,
+      "symbol": "ETH",
+      "name": "ethereum"
+    },
+    {
+      "logo_id": 52,
+      "symbol": "XRP",
+      "name": "XRP"
+    },
+    {
+      "logo_id": 1975,
+      "symbol": "LINK",
+      "name": "chainlink"
+    },
+    {
+      "logo_id": 3890,
+      "symbol": "MATIC",
+      "name": "polygon"
+    },
+    {
+      "logo_id": 7083,
+      "symbol": "UNI",
+      "name": "Uniswap"
+    },
+    {
+      "logo_id": 2010,
+      "symbol": "ADA",
+      "name": "Cardano"
+    },
+    {
+      "logo_id": 5426,
+      "symbol": "SOL",
+      "name": "solana"
+    },
+    {
+      "logo_id": 1839,
+      "symbol": "BNB",
+      "name": "bnb"
+    },
+    {
+      "logo_id": 6636,
+      "symbol": "DOT",
+      "name": "polkadot"
+    },
+    {
+      "logo_id": 2,
+      "symbol": "LTC",
+      "name": "Litecoin"
+    },
+    {
+      "logo_id": 1958,
+      "symbol": "AVAX",
+      "name": "Avalanche"
+    },
+    {
+      "logo_id": 3794,
+      "symbol": "ATOM",
+      "name": "Cosmos"
+    },
+    {
+      "logo_id": 2280,
+      "symbol": "FIL",
+      "name": "Filecoin"
+    },
+    {
+      "logo_id": 21794,
+      "symbol": "APT",
+      "name": "Aptos"
+    },
+    {
+      "logo_id": 6719,
+      "symbol": "GRT",
+      "name": "GRAPH"
+    }
+  ]
+}
