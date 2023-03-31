@@ -17,7 +17,7 @@ Web3Function.onRun(async (context: Web3FunctionContext) => {
 
   ];
   const oracleAddress =
-    (userArgs.oracle as string) ?? "0x33107Ff5a765B6472A0943eA5975FdB3E5b2CCC6";
+    (userArgs.oracle as string) ?? "0xbB2c5955eFf974Dd4F870f4902183732318C9415";
   let contract;
   let updateTime;
 
@@ -31,9 +31,11 @@ Web3Function.onRun(async (context: Web3FunctionContext) => {
     return {canExec: false, message: err};
   }
 
+  const startDay = new Date();
+  startDay.setUTCHours(0, 0, 0, 0);
+  let nextUpdateTime = startDay.getTime() / 1000;
+  nextUpdateTime = nextUpdateTime + 3600 * 24 - 80;
 
-  // Check if it's ready for a new update
-  const nextUpdateTime = updateTime + 3600 * 24; // every 24h
   const timestamp = gelatoArgs.blockTime;
   console.log(`Next  update: ${nextUpdateTime}  Current time: ${timestamp} Update time: ${updateTime}`);
   if (timestamp < nextUpdateTime) {
